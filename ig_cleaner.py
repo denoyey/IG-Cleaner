@@ -5,7 +5,7 @@
 # It is released under the MIT License.
 # See the LICENSE file for more details.
 
-import os, sys, platform, subprocess, logging, random, itertools, time, math, json, pandas as pd
+import os, sys, platform, subprocess, logging, random, itertools, time, math, json, pandas as pd, re
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
@@ -944,3 +944,4 @@ class SystemSetup:
 
 if __name__ == "__main__":
     SystemSetup().run()
+
